@@ -1,0 +1,21 @@
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Sil</button>
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-sm ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">
+                    <div class="col">
+                        <font color=”danger”>GERÇEKTEN EMİN MİSİNİZ?</font>
+                    </div>
+                </h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <a href="/delete/{{article.id}}" class="btn btn-danger">Evet</a>
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Hayır</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
